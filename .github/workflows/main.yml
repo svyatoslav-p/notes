@@ -1,0 +1,22 @@
+name: CI
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+    build_job:
+      runs-on: ubuntu-24.04
+      steps:
+      # Actions от github: проверяет репозиторий, гит и т.д.
+      - uses: actions/checkout@v4
+      # Actions для сборки sphinx 
+      - uses: ammaraskar/sphinx-action@7.1.2
+        with:
+          build-command: "sphinx-build -M html . build"
+          docs-folder: "source/"
+      # Actions для загрузки артефакта 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build_html
+          path: source/build/html/
