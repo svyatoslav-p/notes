@@ -1,8 +1,11 @@
-name: CI
+name: Notes
 on:
   push:
     branches:
     - main
+    - develop
+    paths:
+      - 'source/**'
 
 jobs:
     build_job:
