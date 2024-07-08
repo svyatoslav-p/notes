@@ -15,8 +15,10 @@ jobs:
         with:
           build-command: "sphinx-build -M html . build"
           docs-folder: "source/"
+      - name: Set current date and time
+        run: echo "DATE=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
       # Actions для загрузки артефакта 
       - uses: actions/upload-artifact@v4
         with:
-          name: build_html
-          path: source/build/html/
+          name: build_html_${{ env.DATE }}
+          path: source/build/
