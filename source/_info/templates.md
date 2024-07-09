@@ -64,7 +64,7 @@ Had 'em.
 
 ````{myst-example}
 
-```{image} assets/images/logo.png
+```{image} ../assets/images/logo.png
 :alt: fishy
 :class: bg-primary
 :width: 200px
