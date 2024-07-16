@@ -18,6 +18,7 @@ extensions = [
     'sphinx_design',
     'sphinx_copybutton',
     'sphinx_togglebutton',
+    'sphinx_last_updated_by_git',
 ]
 
 templates_path = ['_templates']

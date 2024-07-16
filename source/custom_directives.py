@@ -2,10 +2,6 @@ from docutils.parsers.rst import directives
 from docutils.parsers.rst.directives import unchanged
 from docutils import nodes
 from sphinx.util.docutils import SphinxDirective
-import datetime
-
-def GetLastUpdated():
-    return datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 class MystExampleDirective(SphinxDirective):
     has_content = True
@@ -42,4 +38,4 @@ class MystExampleDirective(SphinxDirective):
 
 def setup(app):
     app.add_directive("myst-example", MystExampleDirective)
-    app.config.html_context['last_updated'] = GetLastUpdated()
+

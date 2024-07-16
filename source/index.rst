@@ -19,6 +19,12 @@
 
    programms/index
 
+.. toctree::
+   :maxdepth: 2
+   :caption: ОС Linux
+
+   linux/index
+
 
 
 Индексы и таблицы

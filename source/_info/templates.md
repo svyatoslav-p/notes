@@ -181,10 +181,50 @@ c = 3
 
 ````
 
+## Кросс-ссылки
+
+```{button-link} https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#cross-references
+:color: primary
+:outline:
+Полное описание
+```
+**Примеры:**
 
 
+````{myst-example}
 
+(heading-target)=
+### Heading
 
+{#paragraph-target}
+This is a paragraph, with an `id` attribute.
+
+This is a [span with an `id` attribute]{#span-target}.
+
+:::{note}
+:name: directive-target
+
+This is a directive with a `name` option
+:::
+
+[reference1](#heading-target), [reference2](#paragraph-target),
+[reference3](#span-target), [reference4](#directive-target)
+
+````
+
+Неявные цели 
+
+````{myst-example}
+
+## A heading with slug
+
+## A heading with slug
+
+<project:#a-heading-with-slug>
+
+[Explicit title](#a-heading-with-slug-1)
+
+````
 
 
 ## Значки
