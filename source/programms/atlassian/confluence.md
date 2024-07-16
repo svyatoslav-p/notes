@@ -79,7 +79,7 @@ sudo systemctl stop confluence.service
 ### Активация
 
 Существуют различные форки таблетки Atlassian Agent  продуктов Atlassian. на момент инструкции самая свежая
-находится в репозитории {bdg-link-primary-line}`haxqer <https://github.com/haxqer/confluence/tree/master>`.
+находится в репозитории [haxqer](https://github.com/haxqer/confluence/tree/master).
 
 ```{code-block} bash
 # Скачиваем таблетку
