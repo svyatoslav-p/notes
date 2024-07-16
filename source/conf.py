@@ -18,7 +18,6 @@ extensions = [
     'sphinx_design',
     'sphinx_copybutton',
     'sphinx_togglebutton',
-    'sphinx_last_updated_by_git',
 ]
 
 templates_path = ['_templates']
@@ -55,6 +54,7 @@ html_title = ''
 html_logo = 'assets/images/logo.png'
 html_favicon = './favicon.png'
 html_sourcelink_suffix = ''
+html_last_updated_fmt = '%Y-%m-%d %H:%M:%S'
 
 html_theme_options = {
     'github_url': 'https://github.com/svyatoslav-p/notes',

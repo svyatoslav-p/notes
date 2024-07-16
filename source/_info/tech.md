@@ -7,7 +7,6 @@
 *  [MyST](https://myst-parser.readthedocs.io/) - парсер markdown значительно расширяющий возможности разметки. Рекомендуется использовать совместно с расширением [MyST-Markdown](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight) для VS Code
 * [Sphinx design](https://sphinx-design.readthedocs.io/) - Добавляет различные элементы такие как Dropdowns, Card, Buttons и т.д.
 * [Sphinx copy button](https://sphinx-copybutton.readthedocs.io/en/latest/) - Добавляет кнопку копирования кода из блока кода. Имеет настройки (например что бы исключить копирование комментариев в блоке кода)
-* [Sphinx last updated by git](https://github.com/mgeier/sphinx-last-updated-by-git/) - Инициализирует системную переременную `last_updated` значением изменения страницы согласно последнему коммиту в git
 * [Sphinx toggle button](https://sphinx-togglebutton.readthedocs.io/en/latest/) - Добавляет элемент «кнопки переключения»
 * [Sphinx book theme](https://sphinx-book-theme.readthedocs.io/) - Тема оформления документации
 

@@ -5,4 +5,3 @@ sphinx-design
 sphinx-book-theme
 sphinx-copybutton
 sphinx-togglebutton
-sphinx_last_updated_by_git
