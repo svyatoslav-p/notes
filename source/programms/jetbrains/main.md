@@ -1,8 +1,8 @@
 # Активация
 
 ## Актуальный метод
-1. Видео инструкция на `странице <https://www.youtube.com/watch?v=tIKo7u9M5T8>`_
-1. Таблетка на `странице <https://ckey.run/>`_ (требуется просто запустить в powerShell)
+1. Видео инструкция [на страницеЪ](https://www.youtube.com/watch?v=tIKo7u9M5T8)
+1. Таблетка [на странице](https://ckey.run/) (требуется просто запустить в powerShell)
 
 ## Устаревший метод
 1. Переходим по ссылке [jetbra.in](https://jetbra.in/s)
